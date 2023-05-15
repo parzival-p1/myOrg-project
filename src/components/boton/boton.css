@@ -1,0 +1,50 @@
+.btn-crear {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 167px;
+    height: 80px;
+
+    background-color: #6278F7;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin: 28px 0;
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 24px 32px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn-crear:hover {
+    color: #95FFD4;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .btn-crear {
+        display: block;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 413px) and (max-width: 767px) {
+    .btn-crear {
+        display: block;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 412px) {
+    .btn-crear {
+        display: block;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
